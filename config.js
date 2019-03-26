@@ -2,9 +2,8 @@
 
 module.exports = {
   url: 'https://lumen.netlify.com',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
-  copyright: '© All rights reserved.',
+  title: 'Sanket Patel\'s Website',
+  subtitle: 'A fullstack developer',
   disqusShortname: '',
   postsPerPage: 4,
   googleAnalyticsId: 'UA-73379983-2',
@@ -23,16 +22,13 @@ module.exports = {
     }
   ],
   author: {
-    name: 'John Doe',
+    name: 'Sanket Patel',
     photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    bio: 'A fullstack web developer👨‍💻, Father👨, Indian 🇮🇳, BAPS follower 🙏',
     contacts: {
-      email: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
-      rss: '#',
-      vkontakte: '#'
+      email: '3sanket3@gmail.com',
+      twitter: '3sanket3',
+      github: '3sanket3'
     }
   }
 };
