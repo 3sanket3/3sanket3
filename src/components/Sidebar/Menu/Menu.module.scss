@@ -5,6 +5,9 @@
   @include margin-bottom(1);
 
   &__list {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -36,4 +39,16 @@
 
   }
 
+}
+
+@include breakpoint-md {
+  .menu {
+    &__list {
+      display: block;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      
+    }
+  }
 }
