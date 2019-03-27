@@ -28,7 +28,8 @@ module.exports = {
     contacts: {
       email: '3sanket3@gmail.com',
       twitter: '3sanket3',
-      github: '3sanket3'
+      github: '3sanket3',
+      resume: 'https://novoresume.com/a/sanket.1'
     }
   }
 };
