@@ -3,5 +3,18 @@ title: "About me"
 template: "page"
 ---
 
-## Coming Soon...
-Till then, check my [twitter](https://www.twitter.com/3sanket3) for more info.
+- Co-owner @ https://redsoftware.in
+- Developer @ https://templato.com
+- Maintainer @ https://github.com/reactjs/gu.reactjs.org
+
+## Skills
+
+React, Angular, Firebase, NodeJs, .NET
+
+## Learning
+
+GraphQL, Gatsby
+
+## Tools
+
+Github, JIRA, Trello, Gitlab, Azure
