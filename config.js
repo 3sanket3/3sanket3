@@ -6,7 +6,7 @@ module.exports = {
   subtitle: "A fullstack developer",
   disqusShortname: "",
   postsPerPage: 4,
-  googleAnalyticsId: "UA-73379983-2",
+  googleAnalyticsId: "UA-138597832-1",
   menu: [
     {
       label: "Articles",
