@@ -1,16 +1,16 @@
 ---
-title: Node.js tutorials series
+title: Node.js tutorials series - Setup basic Node Server
 date: "2019-04-19T00:55:28.907Z"
 template: "post"
 draft: false
-slug: "/posts/nodejs-tutorials-series"
+slug: "/posts/nodejs-tutorials-series-setup-basic-node-server"
 category: "Node.js"
 tags:
   - "node"
   - "server"
   - "express"
 
-description: "Start of the Node.JS tutorial series. We will setup basic Node Server from Scratch"
+description: "This is first issue of Node.JS tutorial series. We will setup basic Node Server from an empty folder"
 ---
 
 This series will cover
