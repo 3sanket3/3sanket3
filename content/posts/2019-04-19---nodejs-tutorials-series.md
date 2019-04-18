@@ -1,9 +1,9 @@
 ---
-title: Node.js tutorials series - Setup basic Node Server
+title: Node.js tutorial series - Setup basic Node Server
 date: "2019-04-19T00:55:28.907Z"
 template: "post"
 draft: false
-slug: "/posts/nodejs-tutorials-series-setup-basic-node-server"
+slug: "/posts/nodejs-tutorial-series-setup-basic-node-server"
 category: "Node.js"
 tags:
   - "node"
