@@ -10,17 +10,17 @@ tags:
   - "server"
   - "express"
 
-description: "This is first issue of Node.JS tutorial series. We will setup basic Node Server from an empty folder"
+description: "This is the first issue of Node.js tutorial series. We will setup basic Node Server from an empty folder"
 ---
 
 This series will cover
 
 - [Setup basic Node.js + Express.js server](#setup-basic-nodejs--expressjs-server)
-- How to send email using Node.JS (Coming Soon...)
-  - Make your email testing easy <sup>PRO</sup>
-  - Design nicer email templates quickly <sup>PRO</sup>
+- How to send email using Node.js (Coming Soon...)
+  - Make your email testing easy <sup>PRO Tip</sup>
+  - Design nicer email templates quickly <sup>PRO Tip</sup>
 
-Let's start with the very fist thing :
+Let's start with the very first thing on the list:
 
 ## Setup basic Node.js + Express.js server
 
@@ -28,11 +28,11 @@ Let's start with the very fist thing :
 
 - Create any folder to contain the project, let say `my-app`
 - Run `npm init` command at `my-app` folder location in terminal. Assuming you have Node installed. If not, please [install](https://nodejs.org/).
-- It will ask you values of the properties of `package.json`.
+- It will ask you the values of the properties of `package.json`.
 
 [image]
 
-- Which will create a file called `package.json` with the content shown below.
+- It will create a file called `package.json` with the content shown below.
 
 ```json
 {
@@ -48,7 +48,7 @@ Let's start with the very fist thing :
 }
 ```
 
-### Install express package
+### Install the express package
 
 - To create an express server, we will need to install the package called `express`
 - To do the same, run `npm install express --save` or if you prefer yarn then run `yan add express`
@@ -56,7 +56,7 @@ Let's start with the very fist thing :
 ### Create the server
 
 - Let's create `index.js`, which will be the main and entry point of the node server we are going to create.
-- It will be having below content:
+- It will be having content as below:
 
 ```javascript
 const express = require("express");
@@ -80,18 +80,18 @@ app.listen(port, () =>
 );
 ```
 
-- To run the same run `node index.js` in terminal. Which should show output as
+- To run the same run `node index.js` in the terminal. Which should show output as
 
 ```bash
 $ node index.js
 server is listening at http://localhost:4000
 ```
 
-- And if you will click on http://localhost:4000 link, it will run our default route ('/') and it will show response message we sent i.e.'Hi, from Node server'.
+- And if you will click on http://localhost:4000 link, it will run our default route ('/') and it will show the response message we sent from the server i.e.'Hi, from Node server'.
 
 ### Make running the server easy
 
-- Instead of running `node index.js` each time, we can create it's script in `package.json`, like below
+- Instead of running `node index.js` each time, we can create it's a script in `package.json`, like below
 
 ```json
 ...
@@ -102,12 +102,12 @@ server is listening at http://localhost:4000
 ...
 ```
 
-- Now you can simply run `npm run start` or `yarn start` to run the server. This will be really helpful when in real projects, we want to do many other things while starting server.
+- Now you can simply run `npm run start` or `yarn start` to run the server. This will be really helpful when in real projects, we want to do many other things while starting the server.
 
 ### Watch for the changes and automatically restart the server
 
-- Currently each time you make changes in the `index.js`, you will have to stop the server(using ctrl+c in windows, cmd+c in macOS I guess), and start again to see the effects.
-- Instead to keep watch on the file, we can use a package called `nodemon`. We can install it as dev dependency by running `npm install nodemon --save-dev` or `yarn add nodemon --dev`.
+- Currently, each time you make changes in the `index.js`, you will have to stop the server(using ctrl+c in windows, cmd+c in macOS I guess), and start again to see the effects.
+- Instead, to keep watch on the file, we can use a package called `nodemon`. We can install it as dev dependency by running `npm install nodemon --save-dev` or `yarn add nodemon --dev`.
 - And update the `start` script in `package.json` to as shown below
 
 ```json
@@ -125,6 +125,6 @@ So this was setting up a pretty simple node server from scratch. I will be cover
 
 Next in the series will be :
 
-- How to send email using Node.JS (Coming Soon...)
+- How to send email using Node.js (Coming Soon...)
   - Make your email testing easy <sup>PRO Tip</sup>
   - Design nicer email templates quickly <sup>PRO Tip</sup>
