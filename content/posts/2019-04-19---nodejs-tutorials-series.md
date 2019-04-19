@@ -30,7 +30,7 @@ Let's start with the very first thing on the list:
 - Run `npm init` command at `my-app` folder location in terminal. Assuming you have Node installed. If not, please [install](https://nodejs.org/).
 - It will ask you the values of the properties of `package.json`.
 
-[image]
+![package.json config setup](/media/npm-init.PNG)
 
 - It will create a file called `package.json` with the content shown below.
 
