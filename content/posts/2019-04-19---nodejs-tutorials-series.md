@@ -15,7 +15,7 @@ description: "This is first issue of Node.JS tutorial series. We will setup basi
 
 This series will cover
 
-- [Setup basic Node.js + Express.js server]()
+- [Setup basic Node.js + Express.js server](#setup-basic-nodejs--expressjs-server)
 - How to send email using Node.JS (Coming Soon...)
   - Make your email testing easy <sup>PRO</sup>
   - Design nicer email templates quickly <sup>PRO</sup>
