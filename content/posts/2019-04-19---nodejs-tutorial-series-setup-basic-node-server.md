@@ -22,6 +22,8 @@ This series will cover
 
 Let's start with the very first thing on the list:
 
+---
+
 ## Setup basic Node.js + Express.js server
 
 ### Initialize the package manager
@@ -89,14 +91,14 @@ server is listening at http://localhost:4000
 
 - And if you will click on http://localhost:4000 link, it will run our default route ('/') and it will show the response message we sent from the server i.e.'Hi, from Node server'.
 
-### Make running the server easy
+### Demystify the command
 
 - Instead of running `node index.js` each time, we can create it's a script in `package.json`, like below
 
 ```json
 ...
 "scripts": {
-    "start":"node index.js",
+  "start":"node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
 ...
@@ -113,13 +115,17 @@ server is listening at http://localhost:4000
 ```json
 ...
 "scripts": {
-    "start": "nodemon index.js", //use `nodemon` instead of `node`
+  "start": "nodemon index.js", //use `nodemon` instead of `node`
     "test": "echo \"Error: no test specified\" && exit 1"
   },
 ...
 ```
 
 - Now as soon as you make any change in the `index.json`, it will automatically detect the changes, it will stop and start the server. Try updating the response message to test the same.
+
+<p style="text-align:center">
+<iframe src="https://codesandbox.io/embed/79wz0k0v1?fontsize=14" title="Setup Basic Node.js Server" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+</p>
 
 So this was setting up a pretty simple node server from scratch. I will be covering many other topics related to Node.js and it's surroundings in this series. So, stay tuned.
 
