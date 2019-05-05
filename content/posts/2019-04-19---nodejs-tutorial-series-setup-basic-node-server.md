@@ -16,9 +16,7 @@ description: "This is the first issue of Node.js tutorial series. We will setup 
 This series will cover
 
 - [Setup basic Node.js + Express.js server](#setup-basic-nodejs--expressjs-server)
-- How to send email using Node.js (Coming Soon...)
-  - Make your email testing easy <sup>PRO Tip</sup>
-  - Design nicer email templates quickly <sup>PRO Tip</sup>
+- [How to send email using Node.js](https://3sanket3.com/posts/how-to-send-email-in-nodejs)
 
 Let's start with the very first thing on the list:
 
@@ -131,6 +129,4 @@ So this was setting up a pretty simple node server from scratch. I will be cover
 
 Next in the series will be :
 
-- How to send email using Node.js (Coming Soon...)
-  - Make your email testing easy <sup>PRO Tip</sup>
-  - Design nicer email templates quickly <sup>PRO Tip</sup>
+- [How to send email using Node.js](https://3sanket3.com/posts/how-to-send-email-in-nodejs)

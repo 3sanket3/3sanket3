@@ -20,20 +20,18 @@ This is second tutorial of Node.js [series](https://3sanket3.com/posts/nodejs-tu
 This tutorial will cover:
 
 - How to send email in Node.js
-  - Make your email testing easy <sup>PRO Tip</sup>
-  - Design nicer email templates quickly <sup>PRO Tip</sup>
 
 Assuming you have basic setup of node.js server, if not please go through previous tutorial of the [series](https://3sanket3.com/posts/nodejs-tutorial-series-setup-basic-node-server).
 
 ## Using fake SMTP provider
 
-To send emails, we need an SMTP server, which will help us to send the email. And for the same, we will use a really nice service that makes our email testing way easier called [maintrap.io](https://maintrap.io)
+To send emails, we need an SMTP server. And for the same, we will use a really nice service called [maintrap.io](https://maintrap.io) that makes our email testing way easier.
 
-Mailtrap.io is a fake SMTP provider, which send all emails (irrespective of _to_ whom it is sent) into one inbox. So, while developing we don't have to check emails by logging in to the actual email clients. This becomes really handy when multiple emails or users involved in email sending feature.
+Mailtrap.io is a fake SMTP provider, which send all emails (irrespective of _to_ whom it is sent) into single inbox. So, while developing we don't have to check emails by logging in to the actual email clients. This becomes really handy when multiple emails or users involved in email sending feature.
 
-To get the fake SMTP configuration you can login to mailtrap.io and **Create Inbox** . If you will open inbox it will show you the SMTP config(as shown below) we should use to send all emails to this particular inbox.
+To get the fake SMTP configuration, you can login to mailtrap.io and **Create Inbox** . If you will open inbox it will show you the SMTP config(as shown below), we should use them to send all emails to this particular inbox.
 
-![Mailtrap fake SMTP Setting](media/mailtrap-smtp.PNG)
+![Mailtrap fake SMTP Setting](/media/mailtrap-smtp.PNG)
 
 ## Sending Email
 
@@ -63,7 +61,7 @@ app.get("/send-email", async (request, response) => {
 
 > Note: The callback function is `async` because we will `await` for the `sendEmail` function(code in upcoming point)
 
-- Create `transport` object that holds the SMTP configuration
+- Create `transport` object that holds the SMTP configuration (copied fom mailtrap.io)
 
 ```javascript
 let transporter = nodemailer.createTransport({
@@ -76,9 +74,9 @@ let transporter = nodemailer.createTransport({
 });
 ```
 
-> Note: Make sure to update these SMTP setting with your actual SMTP providers like [Mailgun](https://www.mailgun.com/), [SendGrid](https://sendgrid.com/) or [MailJet](https://www.mailjet.com/) when you move your code to production
+> Note: Make sure to update these SMTP settings with your actual SMTP providers like [Mailgun](https://www.mailgun.com/), [SendGrid](https://sendgrid.com/) or [MailJet](https://www.mailjet.com/) when you move your code to production
 
-- Create email data and sent the email using `transporter`
+- Create email data and send the email
 
 ```javascript
 const emailData = {
@@ -99,9 +97,9 @@ let info = await transporter.sendMail({
 response.send(`An email successfully sent to ${emailData.to}`);
 ```
 
-- You can try with any _to_ address, it will send the email to the same mailtrap inbox, as shown below:
+- You can try with any _to address_, it will send the email to the same mailtrap inbox, as shown below:
 
-![Mailtrap inbox](media/mailtrap-inbox.PNG.PNG)
+![Mailtrap inbox](/media/mailtrap-inbox.PNG.PNG)
 
 ## The Sandbox
 
