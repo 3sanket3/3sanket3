@@ -99,7 +99,7 @@ response.send(`An email successfully sent to ${emailData.to}`);
 
 - You can try with any _to address_, it will send the email to the same mailtrap inbox, as shown below:
 
-![Mailtrap inbox](/media/mailtrap-inbox.PNG)
+[![Mailtrap inbox](/media/mailtrap-inbox.PNG)](/media/mailtrap-inbox.PNG)
 
 ## The Sandbox
 
