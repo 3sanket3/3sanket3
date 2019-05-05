@@ -103,4 +103,6 @@ response.send(`An email successfully sent to ${emailData.to}`);
 
 ## The Sandbox
 
+<p style="text-align:center">
 <iframe src="https://codesandbox.io/embed/pyqjlzm390?fontsize=14" title="How to send email in Node.js" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+</p>
