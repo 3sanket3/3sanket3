@@ -12,7 +12,7 @@ tags:
   - "email"
   - "nodemailer"
 
-description: "This tutorial will cover to send an email in Node using a 'nodemailer' package"
+description: "This tutorial will cover how to send an email in Node.js using a 'nodemailer' package. We will also be using a fake SMTP service called mailtrap.io, which makes email testing way easier in real projects"
 ---
 
 This is second tutorial of Node.js [series](https://3sanket3.com/posts/nodejs-tutorial-series-setup-basic-node-server).

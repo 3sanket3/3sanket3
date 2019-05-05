@@ -10,7 +10,7 @@ tags:
   - "server"
   - "express"
 
-description: "This is the first issue of Node.js tutorial series. We will setup basic Node Server from an empty folder"
+description: "This is the first issue of Node.js tutorial series. We will setup basic Node Server from an empty folder using express.js"
 ---
 
 This series will cover
