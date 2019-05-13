@@ -1,25 +1,16 @@
 ---
-title: Node.js tutorial series - Setup basic Node Server
+title: How to setup basic Node Server
 date: "2019-04-19T00:55:28.907Z"
 template: "post"
 draft: false
-slug: "/posts/nodejs-tutorial-series-setup-basic-node-server"
+slug: "/posts/how-to-setup-basic-node-server"
 category: "Node.js"
 tags:
   - "node"
   - "server"
   - "express"
 
-description: "This is the first issue of Node.js tutorial series. We will setup basic Node Server from an empty folder using express.js"
----
-
-This series will cover
-
-- [Setup basic Node.js + Express.js server](#setup-basic-nodejs--expressjs-server)
-- [How to send email using Node.js](https://3sanket3.com/posts/how-to-send-email-in-nodejs)
-
-Let's start with the very first thing on the list:
-
+description: "We will setup basic Node Server from an empty folder using express.js"
 ---
 
 ## Setup basic Node.js + Express.js server
@@ -124,9 +115,3 @@ server is listening at http://localhost:4000
 <p style="text-align:center">
 <iframe src="https://codesandbox.io/embed/79wz0k0v1?fontsize=14" title="Setup Basic Node.js Server" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 </p>
-
-So this was setting up a pretty simple node server from scratch. I will be covering many other topics related to Node.js and it's surroundings in this series. So, stay tuned.
-
-Next in the series will be :
-
-- [How to send email using Node.js](https://3sanket3.com/posts/how-to-send-email-in-nodejs)

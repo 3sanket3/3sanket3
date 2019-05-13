@@ -15,13 +15,7 @@ tags:
 description: "This tutorial will cover how to send an email in Node.js using a 'nodemailer' package. We will also be using a fake SMTP service called mailtrap.io, which makes email testing way easier in real projects"
 ---
 
-This is second tutorial of Node.js [series](https://3sanket3.com/posts/nodejs-tutorial-series-setup-basic-node-server).
-
-This tutorial will cover:
-
-- How to send email in Node.js
-
-Assuming you have basic setup of node.js server, if not please go through previous tutorial of the [series](https://3sanket3.com/posts/nodejs-tutorial-series-setup-basic-node-server).
+Assuming you have basic setup of node.js server, if not please go through this [tutorial](https://3sanket3.com/posts/nodejs-tutorial-series-setup-basic-node-server).
 
 ## Using fake SMTP provider
 
