@@ -87,24 +87,24 @@ server is listening at http://localhost:4000
 ```json
 ...
 "scripts": {
-  "start":"node index.js",
+  "dev":"node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
 ...
 ```
 
-- Now you can simply run `npm run start` or `yarn start` to run the server. This will be really helpful when in real projects, we want to do many other things while starting the server.
+- Now you can simply run `npm run dev` or `yarn dev` to run the server. This will be really helpful when in real projects, we want to do many other things while starting the server.
 
 ### Watch for the changes and automatically restart the server
 
 - Currently, each time you make changes in the `index.js`, you will have to stop the server(using ctrl+c in windows, cmd+c in macOS I guess), and start again to see the effects.
 - Instead, to keep watch on the file, we can use a package called `nodemon`. We can install it as dev dependency by running `npm install nodemon --save-dev` or `yarn add nodemon --dev`.
-- And update the `start` script in `package.json` to as shown below
+- And update the `dev` script in `package.json` to as shown below
 
 ```json
 ...
 "scripts": {
-  "start": "nodemon index.js", //use `nodemon` instead of `node`
+  "dev": "nodemon index.js", //use `nodemon` instead of `node`
     "test": "echo \"Error: no test specified\" && exit 1"
   },
 ...
