@@ -17,7 +17,7 @@ description: "This tutorial will cover how to deploy the Node.js project to Hero
 
 This tutorial will cover how to deploy the Node.js project to Heroku - the cloud application platform. We will have our application up by running just few commands.
 
-Assuming you have any node.js app that you want to publish. If not, I have listed the steps in [this tutorial](https://3sanket3.com/posts/nodejs-tutorial-series-setup-basic-node-server) and codesandbox for the same is [here](https://codesandbox.io/embed/79wz0k0v1) to set up the basic app.
+Assuming you have any node.js app that you want to publish. If not, I have listed the steps in [this tutorial](https://3sanket3.com/posts/how-to-setup-basic-node-server) and codesandbox for the same is [here](https://codesandbox.io/embed/79wz0k0v1) to set up the basic app.
 
 ## Prerequisite
 
