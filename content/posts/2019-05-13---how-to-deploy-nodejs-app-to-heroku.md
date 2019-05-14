@@ -12,18 +12,20 @@ tags:
   - "heroku"
   - "devops"
 
-description: "This tutorial will cover how to deploy the node.js project to heroku - the cloud application platform. It will be just few commands we need to run and the application will get up and running on the server"
+description: "This tutorial will cover how to deploy the Node.js project to Heroku - the cloud application platform. We will have our application up by running just few commands"
 ---
 
-Assuming you have any node.js app that you want to publish. if not, I have listed the steps in [this tutorial](https://3sanket3.com/posts/nodejs-tutorial-series-setup-basic-node-server) and codesandbox for the same is [here](https://codesandbox.io/embed/79wz0k0v1) to set up the basic app.
+This tutorial will cover how to deploy the Node.js project to Heroku - the cloud application platform. We will have our application up by running just few commands.
+
+Assuming you have any node.js app that you want to publish. If not, I have listed the steps in [this tutorial](https://3sanket3.com/posts/nodejs-tutorial-series-setup-basic-node-server) and codesandbox for the same is [here](https://codesandbox.io/embed/79wz0k0v1) to set up the basic app.
 
 ## Prerequisite
 
 - Git
 
-  - To use the Huroku CLI we will need to have the Git install in the machine, so make sure you have it.
+  - To use the Huroku CLI we will need to have the Git installed in the machine, so make sure you have it.
 
-  You can check if if already installed or not using
+  You can check if it is already installed or not, using
 
   ```bash
     $ git --version
@@ -42,6 +44,8 @@ Assuming you have any node.js app that you want to publish. if not, I have liste
 
 ## Initialize Git for the project (if it is not)
 
+If your project is the git repository itself then directly move to [install heroku](#install-heroku)
+
 ```bash
 $ git init
 Initialized empty Git repository in your-project-path/.git/
@@ -53,7 +57,7 @@ Create a `.gitignore` file to ignore `node_modules`
 $ echo node_modules > .gitignore
 ```
 
-Commit the files to git repository
+Commit the existing files to git repository
 
 ```bash
 $ git add -A
@@ -122,12 +126,12 @@ https://nodejs-tutorial-one-3sanket3.herokuapp.com/ | https://git.heroku.com/nod
 $ git push heroku master
 ```
 
-If everything goes fine you should see the last part of the command output as below. It contains the URL at which your app deployed.
+If everything goes fine you should see the last part of the command output as below. It contains the URL at which your app is deployed.
 
 ![heroku deployment output](/media/heroku-deploy-output.PNG)
 
 ## Check deployment logs
 
-Using `heroku logs --tail` command, you can check logs of deployment. It will be updated in realtime so you can keep it open while deployment in another terminal tab/window keep your eye on it.
+Using `heroku logs --tail` command, you can check logs of deployment. It will be updated in real-time so you can keep it open while deployment, in another terminal tab/window keep your eye on it.
 
 Ref : https://devcenter.heroku.com/articles/getting-started-with-nodejs
