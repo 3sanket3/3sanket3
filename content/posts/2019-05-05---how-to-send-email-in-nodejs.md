@@ -100,3 +100,31 @@ response.send(`An email successfully sent to ${emailData.to}`);
 <p style="text-align:center">
 <iframe src="https://codesandbox.io/embed/pyqjlzm390?fontsize=14" title="How to send email in Node.js" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 </p>
+
+## Extract the email sending code to a separate file for reusability (Optional)
+
+Create a new file called `sendEmail.service.js`
+
+- Create an `async` function in it called `sendEmail`
+- Move email sending specific code in it
+- Export as module using `module.exports = sendEmail;` at the end
+
+Then in `index.js`
+
+- Import the `sendEmail` function at the top
+
+```js
+const sendEmail = require("./sendEmail.service");
+```
+
+- And call it from `/send-email` route as below
+
+```js
+const info = await sendEmail(emailData);
+```
+
+### The codesandbox with separate email service
+
+<p style="text-align:center">
+<iframe src="https://codesandbox.io/embed/z64yxjx034?fontsize=14" title="How to send email in Node.js using service file" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+</p>
