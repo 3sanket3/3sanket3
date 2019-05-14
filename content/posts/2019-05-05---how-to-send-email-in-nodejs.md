@@ -19,11 +19,11 @@ Assuming you have basic setup of node.js server, if not please go through this [
 
 ## Using fake SMTP provider
 
-To send emails, we need an SMTP server. And for the same, we will use a really nice service called [maintrap.io](https://maintrap.io) that makes our email testing way easier.
+To send emails, we need an SMTP server. We will use a nice service called [maintrap.io](https://maintrap.io) that makes our email testing way easier.
 
-Mailtrap.io is a fake SMTP provider, which send all emails (irrespective of _to_ whom it is sent) into single inbox. So, while developing we don't have to check emails by logging in to the actual email clients. This becomes really handy when multiple emails or users involved in email sending feature.
+Mailtrap.io is a fake SMTP provider, which send all emails (irrespective of _to_ whom it is sent) into single inbox. So, while developing we don't have to check emails by logging in to the actual email clients. This becomes handy when many emails or users involved in email sending feature.
 
-To get the fake SMTP configuration, you can login to mailtrap.io and **Create Inbox** . If you will open inbox it will show you the SMTP config(as shown below), we should use them to send all emails to this particular inbox.
+To get the fake SMTP configuration, you can login to mailtrap.io and **Create Inbox** . If you will open inbox it will show you the SMTP config(as shown below). We should use them to send all emails to this particular inbox.
 
 ![Mailtrap fake SMTP Setting](/media/mailtrap-smtp.PNG)
 
