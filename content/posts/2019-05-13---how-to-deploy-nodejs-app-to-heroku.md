@@ -1,5 +1,5 @@
 ---
-title: How to quickly deploy Node.js app to Heroku
+title: How To Quickly Deploy Node Js App To Heroku
 date: "2019-05-13T00:55:28.907Z"
 template: "post"
 draft: false
