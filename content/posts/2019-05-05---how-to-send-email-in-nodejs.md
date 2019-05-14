@@ -106,7 +106,7 @@ response.send(`An email successfully sent to ${emailData.to}`);
 Create a new file called `sendEmail.service.js`
 
 - Create an `async` function in it called `sendEmail`
-- Move email sending specific code in it
+- Move email sending specific code in the `sendEmail` function
 - Export as module using `module.exports = sendEmail;` at the end
 
 Then in `index.js`
