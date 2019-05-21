@@ -49,18 +49,19 @@ The default template will have `handler.js`. It contains a dummy function called
 
 Let's simplify the `hello` function and return the `message` as below:
 
-```js
+```javascript
 module.exports.hello = async event => {
- return {
- statusCode: 200,
- body: JSON.stringify(
+  return {
+    statusCode: 200,
+    body: JSON.stringify(
       {
- message: `Hi, there!`
+        message: `Hi, there!`
       },
- null,
- 2
+      null,
+      2
     )
   };
+};
 ```
 
 ## Deploy to AWS Lambda
@@ -129,11 +130,11 @@ In `serverless.yml`, change the `functions` sections as shown below.
 ```yml
 functions:
   hello:
-  handler: handler.hello
-  events:
-    - http:
-  path: hello
-  method: get
+    handler: handler.hello
+    events:
+      - http:
+          path: hello
+          method: get
 ```
 
 ### Deploy the changes
@@ -162,28 +163,29 @@ Let's update the `hello` function to process the `name` parameter passed in as q
 
 ```js
 module.exports.hello = async event => {
- if (event.queryStringParameters && event.queryStringParameters.name) {
- return {
- statusCode: 200,
- body: JSON.stringify(
+  if (event.queryStringParameters && event.queryStringParameters.name) {
+    return {
+      statusCode: 200,
+      body: JSON.stringify(
         {
- message: `Hi, ${event.queryStringParameters.name}!`
+          message: `Hi, ${event.queryStringParameters.name}!`
         },
- null,
- 2
+        null,
+        2
       )
     };
   }
- return {
- statusCode: 200,
- body: JSON.stringify(
+  return {
+    statusCode: 200,
+    body: JSON.stringify(
       {
- message: `Hi, there!`
+        message: `Hi, there!`
       },
- null,
- 2
+      null,
+      2
     )
   };
+};
 ```
 
 Now if you will hit the below URL, you should receive output as below
@@ -202,49 +204,49 @@ You can configure the function(let's say `submitForm`) as POST in `serverless.ym
 
 ```yml
 functions:
- hello:
- handler: handler.hello
- events:
+  hello:
+    handler: handler.hello
+    events:
       - http:
- path: hello
- method: get
-
- # POST endpoint
- submitForm:
- handler: handler.submitForm
- events:
+          path: hello
+          method: get
+  # POST endpoint
+  submitForm:
+    handler: handler.submitForm
+    events:
       - http:
- path: submitForm
- method: post
+          path: submitForm
+          method: post
 ```
 
 The `submitForm` function will be
 
 ```js
 module.exports.submitForm = async event => {
- if (event.body) {
- return {
- statusCode: 200,
- body: JSON.stringify(
+  if (event.body) {
+    return {
+      statusCode: 200,
+      body: JSON.stringify(
         {
- data: JSON.parse(event.body)
+          data: JSON.parse(event.body)
         },
- null,
- 2
+        null,
+        2
       )
     };
   }
 
- return {
- statusCode: 200,
- body: JSON.stringify(
+  return {
+    statusCode: 200,
+    body: JSON.stringify(
       {
- message: "Received nothing"
+        message: "Received nothing"
       },
- null,
- 2
+      null,
+      2
     )
   };
+};
 ```
 
 Deploy the service using `sls deploy`
