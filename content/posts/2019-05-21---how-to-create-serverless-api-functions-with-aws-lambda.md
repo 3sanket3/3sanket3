@@ -11,7 +11,7 @@ tags:
   - "lambda"
   - "aws"
 
-description: "We will learn how to use serverless framework to quickly deploy the lambda function on AWS"
+description: "We will learn how to create the serverless API functions. We will be using the serverless framework and host the functions to AWS Lambda. The tutorial also touch some part of setting up AWS credentials in your machine and introduction to YAML"
 ---
 
 In this tutorial, we will create the node.js API functions. We will deploy it to the AWS Lambda function using the [serverless framework](https://serverless.com).
