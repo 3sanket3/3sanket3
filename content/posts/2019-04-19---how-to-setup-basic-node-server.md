@@ -6,7 +6,7 @@ draft: false
 slug: "/posts/how-to-setup-basic-node-server"
 category: "Node.js"
 tags:
-  - "node"
+  - "node.js"
   - "server"
   - "express"
 

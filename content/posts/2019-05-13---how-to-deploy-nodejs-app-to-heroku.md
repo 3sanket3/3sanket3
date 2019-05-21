@@ -6,7 +6,7 @@ draft: false
 slug: "/posts/how-to-deploy-nodejs-app-to-heroku"
 category: "Node.js"
 tags:
-  - "node"
+  - "node.js"
   - "server"
   - "express"
   - "heroku"

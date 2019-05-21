@@ -6,7 +6,7 @@ draft: false
 slug: "/posts/how-to-send-email-in-nodejs"
 category: "Node.js"
 tags:
-  - "node"
+  - "node.js"
   - "server"
   - "express"
   - "email"
