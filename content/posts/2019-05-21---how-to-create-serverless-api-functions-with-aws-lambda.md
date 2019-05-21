@@ -22,7 +22,7 @@ Please check [AWS Lambda](https://aws.amazon.com/lambda/) or Cloudflare's [why u
 
 ## Get started
 
-Install the serverless globally
+Install the `serverless` globally
 
 ```bash
 npm install -g serverless
@@ -37,7 +37,7 @@ serverless -v
 
 ## Get the boilerplate
 
-We will use the _aws-nodejs_ template to create our service, let's say with the name `testing-one`.
+We will use the _aws-nodejs_ template to create our service, let say with the name `testing-one`.
 
 ```bash
 sls create --template aws-nodejs --path testing-one
