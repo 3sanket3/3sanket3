@@ -14,7 +14,7 @@ tags:
 description: "We will learn how to create the serverless API functions. We will be using the serverless framework and host the functions to AWS Lambda. The tutorial also touch some part of setting up AWS credentials in your machine and introduction to YAML"
 ---
 
-In this tutorial, we will learn how to create the serverless API functions. We will be using the [serverless framework](https://serverless.com) and host the functions to AWS Lambda. The tutorial also touch some part of setting up AWS credentials in your machine and introduction to YAML
+In this tutorial, we will learn how to create the serverless API functions. We will be using the [serverless framework](https://serverless.com) and host the functions to AWS Lambda.
 
 ### Wondering why serverless?
 
