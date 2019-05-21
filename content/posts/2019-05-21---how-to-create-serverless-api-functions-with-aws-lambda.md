@@ -65,6 +65,20 @@ module.exports.hello = async event => {
 
 ## Deploy to AWS Lambda
 
+For deploying the functions to AWS, we need to set up credentials in our machine.
+
+If it is already set up in your machine, the below command should display the _access key id_ and _secret access key_
+
+```bash
+cat < ~/.aws/credentials
+
+[default]
+aws_access_key_id = your-access-key-id
+aws_secret_access_key = your-secret-access-key
+```
+
+Else, please follow this [video](https://www.youtube.com/watch?v=KngM5bfpttA), to set up the AWS credentials.
+
 To deploy the function, run the `deploy` command
 
 ```bash
