@@ -24,11 +24,11 @@ Github, JIRA, Trello, Gitlab, Azure
 
 **Duration:** August 2015 - Present
 
-#### New version (http://templato-next.surge.sh/)
+#### [New version](http://templato-next.surge.sh/)
 
 **Technologies:** React, TypeScript, Firebase
 
-#### Old version (https://templato.com/#/)
+#### [Old version](https://templato.com/#/)
 
 **Technologies:** AngularJs, .NET, Azure
 
