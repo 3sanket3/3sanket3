@@ -32,7 +32,7 @@ Github, JIRA, Trello, Gitlab, Azure
 
 **Technologies:** AngularJs, .NET, Azure
 
-An app that let users do surveys on anything. We have standard templates readily available for many use cases of Engineering, Oil Gas, Wildlife etc. Uses can always make their own and work with team to complete the task. The surveys can be done from any platform like web, [android](https://play.google.com/store/apps/details?id=com.templato.android.client) or [iOS](https://itunes.apple.com/us/app/templato-app/id1223067541?ls=1&mt=8).
+An app that lets users do surveys on anything. We have standard templates readily available for many use cases of Engineering, Oil Gas, Wildlife, etc. Users can always make their own and work with a team to complete the task. The surveys can be done from any platform like web, [Android](https://play.google.com/store/apps/details?id=com.templato.android.client) or [iOS](https://itunes.apple.com/us/app/templato-app/id1223067541?ls=1&mt=8).
 
 ### 2. [Ag Resource Management, LLC.](https://www.armlend.com/)
 
@@ -40,7 +40,7 @@ An app that let users do surveys on anything. We have standard templates readily
 
 **Technologies:** Angular, .NET, Azure
 
-A back office system that handles the whole loan approval process for the farmers and loan agencies in USA.
+A back office system that handles the whole loan approval process for the farmers and loan agencies in the USA.
 
 ### 3. [Infinite Fingers GmbH](https://www.infinitefingers.com/)
 
@@ -48,12 +48,12 @@ A back office system that handles the whole loan approval process for the farmer
 
 **Technologies:** Angular
 
-A system that shows the statistics of the solar system's performance as well as let companies' manager do the admin stuff on the data.
+A system that shows the statistics of the solar system's performance, as well as let companies' manager, do the admin stuff on the data.
 
-### 4. The back office system of an USA based bank
+### 4. The back office system of a USA based bank
 
 **Duration:** Dec 2012 - Dec 2014
 
 **Technologies:** ASP.NET MVC, IIS
 
-Under a payroll of [Tata Consultancy Services](https://www.tcs.com/), I was working on a back office system of one of the US based bank. Due to the strict NDA signed, I am unable to reveal any information on the same.
+Under a payroll of [Tata Consultancy Services](https://www.tcs.com/), I was working on a back office system of one of the US-based bank. Due to the strict NDA signed, I am unable to reveal any information on the same.
