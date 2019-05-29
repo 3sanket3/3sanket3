@@ -56,4 +56,4 @@ A system that shows the statistics of the solar system's performance as well as 
 
 **Technologies:** ASP.NET MVC, IIS
 
-Under a payroll of [Tata Consultancy Services](https://www.tcs.com/), I was working on a back office system of one the US based bank. Due to the strict NDA signed, I am unable to reveal any information on the same.
+Under a payroll of [Tata Consultancy Services](https://www.tcs.com/), I was working on a back office system of one of the US based bank. Due to the strict NDA signed, I am unable to reveal any information on the same.
