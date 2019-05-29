@@ -45,7 +45,7 @@ export const Sidebar = (props) => (
                 twitter
                 github
                 email
-                resume
+                
               }
             }
           }
