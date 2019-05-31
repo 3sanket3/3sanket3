@@ -1,5 +1,5 @@
 ---
-title: How to send email in Node.js
+title: How to Send Email in Node.js
 date: "2019-05-05T00:55:28.907Z"
 template: "post"
 draft: false

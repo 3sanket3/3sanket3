@@ -1,5 +1,5 @@
 ---
-title: How to setup basic Node Server
+title: How to Setup Basic Node Server
 date: "2019-04-19T00:55:28.907Z"
 template: "post"
 draft: false
