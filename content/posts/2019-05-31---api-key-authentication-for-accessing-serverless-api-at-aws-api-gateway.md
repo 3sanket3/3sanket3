@@ -16,6 +16,8 @@ description: "Any REST API should set up some or the other authentication mechan
 
 Any REST API should set up some or the other authentication mechanism to secure from unintended uses. The AWS console and Serverless configuration provide an easy way to secure the API endpoints by setting up the API keys.
 
+I am assuming you already have basic idea about the Serverless Framework and setting up API Gateways for Serverless functions. If not, please quickly check my [relevant post](https://3sanket3.com/posts/how-to-create-serverless-api-functions-with-aws-lambda) once.
+
 ## First, make the endpoints private
 
 Set `private: true` in the `http` section of individual functions as follow.
@@ -33,7 +35,7 @@ functions:
 
 ## List the API key names in serverless.yml
 
-We can list the API key names in `provider` section of `serverless.yml` as shown below.
+List all the API key names for which we want to generate the api keys, in `provider` section of `serverless.yml` as shown below.
 
 ```yml
 apiKeys:
@@ -57,7 +59,7 @@ apiKeys:
     description: This is explicitly provided api key
 ```
 
-If deploy the changes by running `sls deploy` the AWS will auto-generate the name of the api key and set the provided value
+If deploy the changes by running `sls deploy`, the AWS will auto-generate the name of the api key and set the provided value
 
 ![explicitly assigned value](/media/explicit-value-api-key.png)
 
@@ -71,7 +73,7 @@ apiKeys:
 
 ## Append the stage to the API key name
 
-The API keys are stored globally so it is advisable to append the stage name with API key name if clients allowed to access the multiple stages.
+The API keys are stored globally. So, it is advisable to append the stage name with API key name, if clients allowed to access the multiple stages.
 
 ```yml
 apiKeys:
@@ -80,11 +82,11 @@ apiKeys:
 
 ![specify stage in api key name](/media/specify-stage-to-api-key-name.png)
 
-The same way if you want to use the environment variable you can od it by `${self:provider.environment.YOUR_ENV_VARIABLE}`
+The same way if you want to use the environment variable you can do it by `${self:provider.environment.YOUR_ENV_VARIABLE}`
 
 > Each time we make any change in `serverless.yml`, we should deploy using `sls deploy` to have its effect on AWS.
 
-> PRO Tip: You can use `sls print` command to review the compiled yaml configuration file before running `sls deploy`
+> **Tip:** You can use `sls print` command to review the compiled yaml configuration file before running `sls deploy`
 
 ## Set quota limits
 
@@ -134,7 +136,7 @@ usagePlan:
         rateLimit: 1000
 ```
 
-All the configuration we did here can be seen at [API Gateway service of AWS Console](https://console.aws.amazon.com/apigateway/home?region=us-east-1)
+All the configuration we did here, can be seen at [API Gateway service of AWS Console](https://console.aws.amazon.com/apigateway/home?region=us-east-1)
 
 I hope you find the same helpful.
 
