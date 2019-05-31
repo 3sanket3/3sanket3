@@ -140,6 +140,10 @@ All the configuration we did here, can be seen at [API Gateway service of AWS Co
 
 I hope you find the same helpful.
 
+## The Code
+
 You can find the code explained here at https://github.com/3sanket3/serverless-aws-api-gateway
+
+## Credits
 
 Reference: https://serverless.com/framework/docs/providers/aws/events/apigateway/#setting-api-keys-for-your-rest-api
