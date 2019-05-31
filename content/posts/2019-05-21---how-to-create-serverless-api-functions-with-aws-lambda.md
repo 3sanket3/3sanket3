@@ -256,3 +256,5 @@ Deploy the service using `sls deploy`
 You can POST the data to the endpoint using tools like [Postman](https://www.getpostman.com/). It should respond with the data sent in the body.
 
 ![postman screenshot](/media/postman.png)
+
+You can find the code explained here at https://github.com/3sanket3/serverless-aws-api-gateway
