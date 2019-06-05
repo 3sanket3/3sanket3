@@ -10,7 +10,7 @@ tags:
   - "server"
   - "express"
   - "heroku"
-  - "devops"
+  - "beginner"
 
 description: "This tutorial will cover how to deploy the Node.js project to Heroku - the cloud application platform. We will have our application up by running just few commands"
 ---
