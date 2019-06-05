@@ -4,7 +4,7 @@ date: "2019-06-05T00:55:28.907Z"
 template: "post"
 draft: false
 slug: "/posts/serverless-faqs"
-category: "Node.js"
+category: "serverless"
 tags:
   - "node.js"
   - "serverless"
@@ -14,7 +14,7 @@ tags:
 description: "This post explains some of the frequent questions many developers have regarding Serverless"
 ---
 
-## No Server? Really? 😲
+## No Servers? Really? 😲
 
 Haha, don't go with the literal meaning of the name. There are servers 🤦‍, just you won't have to manage the way you typically do. The cloud providers will dynamically manage the allocation of resources.
 
