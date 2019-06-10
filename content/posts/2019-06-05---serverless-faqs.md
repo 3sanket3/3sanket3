@@ -20,7 +20,7 @@ Haha, don't go with the literal meaning of the name. There are servers 🤦‍, 
 
 You just write functions and deploy to the cloud. The cloud providers will store your functions in storage. When you ask to run the function, they will pull from storage, run it and done.
 
-## How I will be charged? 💸
+## How will I be charged? 💸
 
 It will only charge for the computing time of your function. So, no charge when your code is not running 🤑
 

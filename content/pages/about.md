@@ -5,6 +5,7 @@ template: "page"
 
 - Co-owner @ https://redsoftware.in
 - Maintainer @ https://github.com/reactjs/gu.reactjs.org
+- Co-organizer @ https://www.meetup.com/surat-javascript-group/
 
 ## Skills
 
