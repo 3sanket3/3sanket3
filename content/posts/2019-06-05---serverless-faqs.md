@@ -11,7 +11,7 @@ tags:
   - "beginner"
   - "faqs"
 
-description: "This post explains some of the frequent questions many developers have regarding Serverless"
+description: "This post will explain some of the frequent questions many developers have regarding Serverless"
 ---
 
 ## No Servers? Really? 😲
