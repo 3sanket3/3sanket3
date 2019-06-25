@@ -3,15 +3,17 @@ title: "Talks"
 template: "page"
 ---
 
-## Upcoming
+<!-- ## Upcoming
+
+
+---
+
+## Past -->
 
 ### [Forget the servers being Serverless](https://webstackup.com/)
 
 - Date: 15th June, 2019
-
----
-
-## Past
+- [Slides](https://docs.google.com/presentation/d/1KlvHBojfxhTazHou6oZY3To1c-rWFgsjfYBx3OmWUJI/edit?usp=sharing)
 
 ### [Power of JavaScript](https://www.meetup.com/surat-javascript-group/events/261995304/)
 
