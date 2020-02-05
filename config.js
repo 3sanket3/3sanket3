@@ -24,12 +24,11 @@ module.exports = {
       label: "Contact me",
       path: "/pages/contacts"
     }
-    
   ],
   author: {
     name: "Sanket Patel",
     photo: "/photo.jpg",
-    bio: "A fullstack web developer👨‍💻, Father👨, Indian 🇮🇳, BAPS follower 🙏",
+    bio: "A Full-Stack Web Developer👨‍💻, Father👨, Indian 🇮🇳, BAPS Follower 🙏",
     contacts: {
       email: "3sanket3@gmail.com",
       twitter: "3sanket3",
