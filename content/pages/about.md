@@ -21,7 +21,7 @@ Github, JIRA, Trello, Gitlab, Azure
 
 ## Projects
 
-### 🎮 We Make Games
+### 🎮 [We Make Games](https://wemake.games/)
 
 **Duration:** July 2019 - Present
 
