@@ -23,7 +23,7 @@ Github, JIRA, Trello, Gitlab, Azure
 
 ### 🎮 [We Make Games](https://wemake.games/)
 
-**Duration:** July 2019 - Present
+**Duration:** June 2019 - Present
 
 **Technologies:** React, TypeScript, Firebase
 
@@ -61,7 +61,7 @@ A system that shows the statistics of the solar system's performance, as well as
 
 ### 💵 The back office system of a USA based bank
 
-**Duration:** Dec 2012 - Dec 2014
+**Duration:** Dec 2012 - Jan 2015
 
 **Technologies:** ASP.NET MVC, IIS
 
