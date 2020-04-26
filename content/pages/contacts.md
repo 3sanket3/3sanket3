@@ -6,5 +6,5 @@ template: "page"
 ## You can
 
 - DM me on [twitter](https://www.twitter.com/3sanket3)
-- Drop an email at [3sanket3@gmail.com](mailto:3sanket3@gmail.com)
+- Drop an email at [hi@3sanket3.com](mailto:hi@3sanket3.com)
 - Send message at [facebook](https://www.facebook.com/3sanket3/)
