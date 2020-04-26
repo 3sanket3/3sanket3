@@ -10,30 +10,30 @@ module.exports = {
   menu: [
     {
       label: "Articles",
-      path: "/"
+      path: "/",
     },
     {
       label: "About me",
-      path: "/pages/about"
+      path: "/pages/about",
     },
     {
       label: "Talks",
-      path: "/pages/talks"
+      path: "/pages/talks",
     },
     {
       label: "Contact me",
-      path: "/pages/contacts"
-    }
+      path: "/pages/contacts",
+    },
   ],
   author: {
     name: "Sanket Patel",
     photo: "/photo.jpg",
     bio: "A Full-Stack Web Developer👨‍💻, Father👨, Indian 🇮🇳, BAPS Follower 🙏",
     contacts: {
-      email: "3sanket3@gmail.com",
+      email: "hi@3sanket3.com",
       twitter: "3sanket3",
       github: "3sanket3",
-      resume: "https://novoresume.com/a/sanket.1"
-    }
-  }
+      resume: "https://novoresume.com/a/sanket.1",
+    },
+  },
 };
