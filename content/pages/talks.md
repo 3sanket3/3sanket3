@@ -10,6 +10,11 @@ template: "page"
 
 ## Past -->
 
+### JavaScrip Basics
+
+- Date: 3rd May, 2020
+- At: [Meetup by Surat JavaScript Group](https://www.meetup.com/surat-javascript-group/events/270327656/)
+
 ### [Forget the servers being Serverless](https://docs.google.com/presentation/d/1KlvHBojfxhTazHou6oZY3To1c-rWFgsjfYBx3OmWUJI/edit?usp=sharing)
 
 - Date: 15th June, 2019
