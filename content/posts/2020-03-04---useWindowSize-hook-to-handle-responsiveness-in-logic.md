@@ -1,5 +1,5 @@
 ---
-title: `useWindowSize` React Hook To Handle Responsiveness In JavaScript
+title: "`useWindowSize` React Hook To Handle Responsiveness In JavaScript"
 date: "2020-03-04T00:55:28.907Z"
 template: "post"
 draft: true
@@ -43,7 +43,7 @@ export default useWindowSize;
 Now to determine the screen size, we will first check if the client is a browser, by checking if we have access to `window` object. If we have, we can get the width of the screen using `window.innerWidth` and assign into the state variable as default value.
 
 ```javascript
-import { useState, useEffect } from "react";
+import {useState, useEffect} from "react";
 
 function useWindowSize() {
   //👇
@@ -71,7 +71,7 @@ export default function App() {
   return (
     <div>
       <h1>The screen width is: </h1>
-      <span style={{ fontSize: "30px" }}>{windowSize}</span>
+      <span style={{fontSize: "30px"}}>{windowSize}</span>
     </div>
   );
 }
@@ -80,7 +80,7 @@ export default function App() {
 However, on resize of the window, this hook won't inform us about the change in size. To achieve it, we will have to implement `window`'s on `resize` listener. We will use it in `useEffect` so that we won't register the listener each time it renders and we make sure that it gets unregistered when it needs to.
 
 ```javascript
-import { useState, useEffect } from "react";
+import {useState, useEffect} from "react";
 
 function useWindowSize() {
   const isWindowClient = typeof window === "object";
@@ -115,7 +115,7 @@ export default useWindowSize;
 Now if we want to have breakpoints instead of this absolute widths, we can convert the sizes into specific breakpoints (let say `sm`, `md`, `lg`, `xlg`) using a simple util function.
 
 ```javascript
-import { useState, useEffect } from "react";
+import {useState, useEffect} from "react";
 
 //👇
 //a Util function that will conver the absolute width into breakpoints
