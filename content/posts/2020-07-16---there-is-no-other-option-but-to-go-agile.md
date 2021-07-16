@@ -3,7 +3,7 @@ title: "There is no other option but to go Agile"
 date: "2020-07-16T00:55:28.907Z"
 template: "post"
 draft: false
-slug: "/posts/useWindowSize-hook-to-handle-responsiveness-in-logic"
+slug: "/posts/there-is-no-other-option-but-to-go-agile"
 category: "Project Management"
 tags:
   - "Agile"
