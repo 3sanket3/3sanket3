@@ -28,12 +28,13 @@ module.exports = {
   author: {
     name: "Sanket Patel",
     photo: "/photo.jpg",
-    bio: "A Full-Stack Web Developer👨‍💻, Father👨, Indian 🇮🇳, BAPS Follower 🙏",
+    bio:
+      "CEO at https://redsoftware.in/, Father👨, Indian 🇮🇳, BAPS Follower 🙏",
     contacts: {
       email: "hi@3sanket3.com",
       twitter: "3sanket3",
       github: "3sanket3",
-      resume: "https://novoresume.com/a/sanket.1",
+      linkedin: "https://www.linkedin.com/in/3sanket3/",
     },
   },
 };

@@ -3,8 +3,8 @@ title: "Contact me"
 template: "page"
 ---
 
-## You can
+## Say hi
 
-- DM me on [twitter](https://www.twitter.com/3sanket3)
-- Drop an email at [sanket@redsoftware.in](mailto:sanket@redsoftware.in)
-- Send message at [facebook](https://www.facebook.com/3sanket3/)
+- [twitter](https://www.twitter.com/3sanket3)
+- [LinkedIn](https://www.linkedin.com/in/3sanket3/)
+- [sanket@redsoftware.in](mailto:sanket@redsoftware.in)
