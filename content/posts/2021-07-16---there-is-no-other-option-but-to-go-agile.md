@@ -1,6 +1,6 @@
 ---
 title: "There is no other option but to go Agile"
-date: "2020-07-16T00:55:28.907Z"
+date: "2021-07-16T00:55:28.907Z"
 template: "post"
 draft: false
 slug: "/posts/there-is-no-other-option-but-to-go-agile"
