@@ -29,7 +29,7 @@ module.exports = {
     name: "Sanket Patel",
     photo: "/photo.jpg",
     bio:
-      "CEO at RedSoft Solutions Pvt. Ltd. - redsoftware.in, Father👨, Indian 🇮🇳, BAPS Follower 🙏",
+      "Fullstack JavaScript Developer, CEO at RedSoft Solutions Pvt. Ltd. - redsoftware.in, Father👨, Indian 🇮🇳, BAPS Follower 🙏",
     contacts: {
       email: "hi@3sanket3.com",
       twitter: "3sanket3",
